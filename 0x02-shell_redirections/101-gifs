@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -iname "*.gif" -printf "%f\n" | sed 's/\.gif$//i' | LC_ALL=C sort | while read -r filename; do chmod 644 "${filename}.gif"; done
+find . -type f -iname '*.gif' -printf "%f\n" | sed 's/\.gif$//'
