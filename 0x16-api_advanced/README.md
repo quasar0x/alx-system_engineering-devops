@@ -38,7 +38,7 @@ Prototypes for functions written in this project:
 * **3. Count it!**
   * [100-count.py](./100-count.py): Python function that recursively prints a
   sorted count of given keywords parsed from titles of all hot articles on a given
-  subreddit.
+  subreddit
   * Keywords are case-insensitive and delimited by spaces.
   * Results are printed in descending order by count.
   * Words with identical counts are sorted alphabetically.
